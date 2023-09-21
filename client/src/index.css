@@ -15,9 +15,14 @@
   font-size: 17px;
   line-height: 26px;
   text-transform: uppercase;
+  /* box-shadow: 0 8px 6px -6px gray; */
   box-shadow: 0 8px 6px -6px gray;
   --webkit-box-shadow: 0 8px 6px -6px gray;
   border-bottom: solid gray !important;
+}
+
+.text-center{
+  font-size: 21px;
 }
 
 .nav-link {
@@ -39,13 +44,14 @@
   margin-top: 4px;
 }
 .search-form input {
-  border: none;
-  border-radius: 0;
+  /* border: none; */
+  border-radius: 50px;
 }
 .search-form button {
   background-color: #000000;
-  border-radius: 0;
+  border-radius: 50px;
   color: white;
+  width: 210px;
 }
 
 /* =============================
